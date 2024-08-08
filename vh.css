@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(180, 154, 154);
+  color: rgb(39, 28, 32);
+}
+
+/* Labra logo */
+.playfair-display-sc-regular {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-size: 60px;
+  margin: 0px 30px;
+  padding: 3px;
+  display: inline-flex;
+  color: rgb(204, 18, 142);
+  text-align: justify;
+}
+
+/* Welcome text */
+.playfair-display-sc-regular-italic {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-size: 50px;
+  font-style: italic;
+  margin: 0px;
+  text-align: center;
+  justify-content: center;
+}
+.playfair-display-sc-regular-italic:hover {
+  color: rgb(182, 28, 131);
+  transition: 2s;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gill Sans MT";
+  
+}
+.navbar ul {
+  margin-left: 150px;
+  margin-right: auto;
+}
+.navbar li {
+  display: inline-flex;
+}
+.navbar a {
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 2px 60px;
+  font-size: 20px;
+  color: antiquewhite;
+}
+.navbar a:hover {
+  color: rgb(204, 18, 142);
+  text-decoration: underline;
+  transition: 1s;
+}
+header{
+  width: 100%;
+  border-bottom: 1px solid rgb(104, 102, 102);
+}
+/* Cart items */
+.cart-div {
+  font-size: 10px;
+  
+}
+.fa-magnifying-glass {
+  font-size: 20px;
+}
+#mainBody {
+  width: 100%;
+}
+.sub-body {
+  display: flex;
+  padding: 2px 20px;
+}
+
+/* Krishna outline image*/
+.img-div {
+  margin: 0px 35px 0px 10px;
+  padding: 5px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-div {
+  margin: -85px 10px 0px -35px;
+  width: 65%;
+  display: inline-flex;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.main-heading-text {
+  display: inline-flex;
+  justify-content: center;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: italic;
+}
+.desc-1 {
+  font-size: 22px;
+  line-height: 40px;
+  padding: 2px;
+}
+.text-div p,
+.text-div h1 {
+  margin: 0px;
+}
+.secondbody {
+  margin: 0px 30px;
+  text-align: justify;
+  padding: 4px;
+}
+
+/* About-Portfolio-styling */
+.portfolio {
+  margin: 0px 30px;
+  text-align: justify;
+  padding: 4px;
+}
+/*Portfolio image*/
+.image {
+  margin: 5px;
+  height: 50vh;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  height: 300px;
+  width: 300px;
+  border-radius: 70%;
+  border: 2px solid antiquewhite;
+}
+
+/*Starting of Contact*/
+h3 {
+  margin: 0px 30px;
+  padding: 20px;
+  font-size: 70px;
+  display: block;
+  text-align: center;
+}
+h3:hover{
+  color: rgb(182, 28, 131);
+  transition: 1.2s;
+}
+.contact-align {
+  margin: 0px 50px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+  padding: 0px 40px 10px 20px;
+  width: 250px;
+  height: 400px;
+}
+.contact-title {
+  font-size: 30px;
+  font-weight: 500;
+}
+.contact-input {
+  width: 200px;
+  padding: 5px;
+  height: 45px;
+  gap: 10px;
+  border: none;
+  outline: none;
+  padding-left: 17px;
+  border-radius: 40px;
+}
+.contact-input:hover:focus {
+  border: 2px solid rgb(243, 99, 188);
+}
+.contact-input:hover::placeholder {
+  color: rgb(99, 99, 243);
+}
+.contact-align button {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 15px;
+  gap: 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: rgb(182, 28, 131);
+}
+.contactinfo {
+  margin: 0px 40px;
+  padding: 20px;
+  display: inline-flex;
+  font-size: 20px;
+  font-size: 18px;
+  font-family: serif;
+  flex-direction: column;
+}
+
+/* Starting of Socialmedia */
+.socialmedia{
+  margin: 0px 50px;
+  display: inline-flex;
+  flex-direction: column;
+  width: 30%;
+}
+.socialmedia p{
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+}
+.sm-icons{
+  font-size: 50px;
+  text-align: center;
+}
+
+
+/* End-footer */
+footer {
+  margin: 0px 30px;
+  text-align: center;
+}
+
+/* Utility Classes */
+.border-red {
+  border: 1px solid red;
+}
+.border-green {
+  border: 1px solid green;
+}
+.border-blue {
+  border: 1px solid blue;
+}
+.border-black {
+  border: 1px solid black;
+}
+.d-none {
+  display: none !important;
+}
+.d-block {
+  display: block !important;
+}
